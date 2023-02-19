@@ -1,0 +1,136 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #FFF;
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    justify-content: space-between;
+    text-align: center;
+}
+.logo {
+    margin-left: 120px;
+    color: black;
+    font-weight: bold;
+}
+.logo a{
+    color: black;
+    
+}
+.logo a span {
+    color: yellow;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    padding: 0 12px;
+    color: black;
+}
+ul li a,
+ul li a:after,
+ul li a:before {
+  transition: all .5s;
+}
+ul li a:hover {
+  color: yellow;
+  font-weight: bold;
+}
+
+.btn {
+    padding: 13px;
+    margin-right: 170px;
+    border-radius: 8px;
+    border: none;
+    background: black;
+    color: white;
+}
+.btn a{
+    color: white;
+    font-weight: bold;
+}
+.row {
+    background-color:#fff;
+    width: 100%;
+    height: 430px;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 70px;
+    display: grid;
+    grid-template-columns: 480px 220px 220px;
+}
+.row .left {
+    height: 99%;
+    background-color: yellow;
+    border: none;
+    margin: 0;
+    border-radius: 20px 0 0 20px;
+}
+.row .left .centent {
+    padding: 90px 20px 20px 20px;
+}
+.row .left .centent h1{
+    font-size: 50px;
+    
+}
+.row .left .centent p {
+    padding-top: 20px;
+    font-size: 16px;
+    color: gray;
+}
+.row .left .centent p a{
+    color: black;
+    font-weight: bold;
+}
+
+.row .left .centent button {
+    border: none;
+    border-radius: 12px;
+    padding: 10px 22px;
+    margin: 25px 0;
+    background-color: black;
+}
+
+.row .left .centent button a{
+    color: white;
+}
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
